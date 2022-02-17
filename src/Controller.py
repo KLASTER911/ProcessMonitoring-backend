@@ -4,7 +4,7 @@ import subprocess
 import time
 import platform,socket,re,uuid,json,psutil,logging,GPUtil
 
-available_processes = ['ControlNode','RenderNode','UserNode', 'StorageNode','DicomWrapper','postgresql-x64-13']
+available_processes = []
 
 class Process:
     def confirm_process(self, process):
